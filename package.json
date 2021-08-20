@@ -1,0 +1,33 @@
+{
+  "name": "netflix - server",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "module 5, day 10, homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config -e js src/server.js",
+    "dev": "nodemon -r dotenv/config -e js src/server.js"
+  },
+  "dependencies": {
+    "cloudinary": "^1.26.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-list-endpoints": "^6.0.0",
+    "express-validator": "^6.12.1",
+    "fs-extra": "^10.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mime": "^2.5.2",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.3",
+    "multer-storage-cloudinary": "^4.0.0",
+    "uniqid": "^5.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
